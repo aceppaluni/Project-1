@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+img{
+    position: absolute;
+    width: 317px;
+    height: 317px;
+    left: 116px;
+    top: 44px;
+    background: url(.png);
+    border-radius: 10px 10px 0px 0px;
+}
+.container{
+    background-color: #F5F5F5;
+    position: absolute;
+    width: 317px;
+    height: 399px;
+    left: 116px;
+    top: 361px;
+}
+footer{
+    position: absolute;
+    background-color: #D5D4D8;
+    width: 317px;
+    height: 64px;
+    left: 116px;
+    top: 760px;
+    border-radius: 0px 0px 10px 10px
+}
+.name{
+    width: 170.px;
+    height: 25.px;
+    left: 186px;
+    top: 381px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #2B283A;
+}
+.job{
+    width: 178.px;
+    height: 14.px;
+    left: 186px;
+    top: 413px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16x;
+    line-height: 15px;
+    text-align: center;
+
+    color: #F47D27;
+}
+.website{
+    width: 228.px;
+    height: 16px;
+    left: 161px;
+    top: 436px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+    text-align: center;
+
+    color: #4A4E74;
+}
+.button{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    
+    width: 247px;
+    height: 34px;
+    left: 151px;
+    top: 469px;
+    -ms-transform: translate(40%, 40%);
+    transform: translate(15%, -10%);
+
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+.footer > i{
+    left: 29;
+    right: 65;
+    top: 89.8%;
+    bottom: 7.32%;
+    margin: 10px;
+    vertical-align: middle;
+    margin-right: 20px;
+    text-align: center;
+    justify-content: center;
+    -ms-transform: translate(30%, 30%);
+    transform: translate(750%, 90%);
+    
+    
+
+    background: #918E9B;
+}
