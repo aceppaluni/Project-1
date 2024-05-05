@@ -4,3 +4,9 @@
     refs:
     - "refs/heads/main"
   fail_on_prepare_env_warning: true
+  actions:
+  - action: "Send email"
+    type: "EMAIL"
+    title: "$BUDDY_PIPELINE_NAME execution #$BUDDY_EXECUTION_ID"
+    content: "There is an issue with the code, please fix!"
+    recipients: "aceppaluni@gmail.com"
